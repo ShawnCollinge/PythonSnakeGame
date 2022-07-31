@@ -32,8 +32,4 @@ class Scoreboard(Turtle):
                 file.write(str(self.high_score))
         self.score = 0
         self.update_scoreboard()
-
-        # self.goto(0,0)
-        # self.write(f"GAME OVER!!!!!", align=ALIGNMENT, font=FONT)
-
     
